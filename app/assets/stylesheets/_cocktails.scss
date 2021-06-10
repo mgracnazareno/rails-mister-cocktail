@@ -34,7 +34,7 @@
   text-align: center;
   padding: 24px 0;
   position: relative;
-  top: 100px;
+  top: 70px;
 
   h2 {
     font-size: 3.5em;
@@ -47,4 +47,23 @@
 
 .cursive {
   font-family: 'Satisfy', cursive;
+}
+
+.btn {
+  border: 1px solid #346751;
+  background: #346751;
+  cursor: pointer;
+  padding: 8px 16px;
+  border-radius: 8px;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: #ecdbba;
+
+}
+.section {
+  min-width: 100vw;
+  min-height: 50vh;
+  background: #161616;
+  margin: 0;
+  padding: 0;
 }

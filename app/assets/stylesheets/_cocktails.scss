@@ -2,64 +2,65 @@
   width: 100%;
 }
 
-.header {
-  background-color: #161616;
-  border: 1px solid #161616;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  padding: 4px 8px;
-  margin: 0;
-  color: #c84b31;
-}
+// .header {
+//   background-color: #161616;
+//   border: 1px solid #161616;
+//   width: 100%;
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 4px 8px;
+//   margin: 0;
+//   color: #c84b31;
+// }
 
-.main {
-  min-height: 100vh;
-  min-width: 100vw;
-  font-family: 'Satisfy', cursive;
-  object-fit: cover;
-}
+// .main {
+//   min-height: 100vh;
+//   min-width: 100vw;
+//   font-family: 'Satisfy', cursive;
+//   object-fit: cover;
+// }
 
-.main-banner{
-  background-image: asset_url('cocktails_sunset.jpg');
-  height: 100vh;
-  width: 100vw;
-  background-size: cover;
-  object-fit: cover;
-}
+// .main-banner{
+//   background-image: asset_url('cocktails_sunset.jpg');
+//   height: 100vh;
+//   width: 100vw;
+//   background-size: cover;
+//   object-fit: cover;
+// }
 
-.banner-slogan {
-  color: #c84b31;
-  text-shadow: 1px 2px rgba(0,0,0,-1);
-  text-align: center;
-  padding: 24px 0;
-  position: relative;
-  top: 70px;
+// .banner-slogan {
+//   color: #c84b31;
+//   text-shadow: 1px 2px rgba(0,0,0,-1);
+//   text-align: center;
+//   padding: 24px 0;
+//   position: relative;
+//   top: 70px;
 
-  h2 {
-    font-size: 3.5em;
-  }
+//   h2 {
+//     font-size: 3.5em;
+//   }
 
-  p {
-    font-size: 1.5em;
-  }
-}
+//   p {
+//     font-size: 1.5em;
+//   }
+// }
 
-.cursive {
-  font-family: 'Satisfy', cursive;
-}
+// .cursive {
+//   font-family: 'Satisfy', cursive;
+// }
 
-.btn {
-  border: 1px solid #346751;
-  background: #346751;
-  cursor: pointer;
-  padding: 8px 16px;
-  border-radius: 8px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  color: #ecdbba;
+// .btn {
+//   border: 1px solid #346751;
+//   background: #346751;
+//   cursor: pointer;
+//   padding: 8px 16px;
+//   border-radius: 8px;
+//   font-size: 18px;
+//   letter-spacing: 2px;
+//   color: #ecdbba;
 
-}
+// }
+
 .section {
   min-width: 100vw;
   min-height: 50vh;

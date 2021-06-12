@@ -2,9 +2,12 @@
 .container {
   height: 600px;
   background: #ecdbba;
-  margin: 24px 24px;
-  position: relative;
+  margin: auto 0;
+  position: static;
   right: 80px;
   left: 80px;
   top: 50px;
+  min-width: 100vw;
+  min-height: 80vh;
+
 }

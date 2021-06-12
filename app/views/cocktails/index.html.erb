@@ -1,12 +1,16 @@
 
-
-<div class="wrapper">
-  <div class="section">
-    <div class="card">
-
+   <%= @cocktails.each do |c| %>
+    <div class="card" style="background-image: url(<%= asset_url('https://source.unsplash.com/500x400/?cocktail')%>">
+      <%= image_tag "source", alt: "alttext", :class => "card-img" %>
     </div>
-  </div>
-</div>
+
+    <div class="card-cocktail">
+      <h2><%= c.name %></h2>
+    </div>
+  <% end %>
+
+
+
 
 
 

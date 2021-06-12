@@ -2,15 +2,18 @@
 .section {
   min-width: 100vw;
   min-height: 100vh;
-  background: #161616;
   margin: 0;
   padding: 0;
+  background-color: #7f5a83;
+  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+  margin: 42px 24px;
 }
 
-.card {
-  width: 250px;
-  height: 250px;
-  border: 1px solid #eeebdd;
+.row{
+  height: 100%;
+  border-radius: 4px;
+  padding: 8px 36px;
+
 }
 
 .card-img {

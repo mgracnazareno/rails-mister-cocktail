@@ -1,9 +1,16 @@
 
 <%= render "cocktails/header" %>
-
-<% @cocktails.each do |c| %>
-<%= c.name %>
-<% end %>
+  <div class="section">
+    <div class="row">
+      <% @cocktails.each do |c| %>
+        <div class="card" style="background-image: url(<%= asset_url('https://source.unsplash.com/250x250/?cocktail')%>)">
+          <div class="card-title">
+            <p id="card-name"><%= c.name.capitalize %></p>
+          </div>
+        </div>
+      <% end %>
+    </div>
+  </div>
 
 
 

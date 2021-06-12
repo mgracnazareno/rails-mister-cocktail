@@ -1,11 +1,14 @@
 <div class="main">
-  <div class="main-banner">
-    <%= render "pages/home" %>
-    <div class="banner-slogan ">
-      <h2 class='cursive'>Best Drink for Best Moments</h2> <br>
-      <p class='cursive'>The way of enjoying your success.</p>
-      <%= link_to "View Cocktails", cocktails_path, :class=> "btn btn-info" %>
+  <div class="container">
+    <div class="main-banner">
+      <%= render "pages/header" %>
+      <div class="banner-slogan ">
+        <h2 class='cursive'>Best Drink for Best Moments</h2> <br>
+        <p class='cursive'>The way of enjoying your success.</p>
+        <%= link_to "View Cocktails", cocktails_path, :class=> "btn btn-info" %>
+      </div>
     </div>
+
   </div>
 </div>
 

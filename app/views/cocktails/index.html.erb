@@ -1,14 +1,14 @@
 
-<%= render "cocktails/header" %>
-  <div class="section">
+<%= render "pages/header" %>
+  <div class="container-card">
     <div class="row">
-      <% @cocktails.each do |c| %>
-        <div class="card" style="background-image: url(<%= asset_url('https://source.unsplash.com/250x250/?cocktail')%>)">
-          <div class="card-title">
-            <p id="card-name"><%= c.name.capitalize %></p>
+        <% @cocktails.each do |c| %>
+          <div class="card" style="background-image: url(<%= asset_url('https://source.unsplash.com/250x250/?cocktail')%>)">
+            <div class="card-title">
+              <p id="card-name"><%= link_to c.name.capitalize, cocktail_path(@cocktails), :class=>'btn btn-card' %></p>
+            </div>
           </div>
-        </div>
-      <% end %>
+        <% end %>
     </div>
   </div>
 

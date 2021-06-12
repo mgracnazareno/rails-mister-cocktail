@@ -4,18 +4,37 @@
   min-height: 100vh;
   margin: 0;
   padding: 0;
-  background-color: #7f5a83;
-  background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
   margin: 42px 24px;
+  display: block;
 }
 
 .row{
   height: 100%;
+  width: 100%;
   border-radius: 4px;
   padding: 8px 36px;
+  margin: 0;
+  padding: 0;
 
 }
 
+.container-card {
+  // background: linear-gradient(to top, #e2e5e9 0%, #38242b 100%);
+  min-width: 100vw;
+  min-height: 100vh;
+}
 .card-img {
   background-image: asset_url('https://source.unsplash.com/500x400/?cocktail');
 }
+
+.btn-card {
+  position: absolute;
+  top: 230px;
+
+  .btn-card:hover {
+    cursor: pointer;
+  }
+}
+
+

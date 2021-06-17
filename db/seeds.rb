@@ -1,9 +1,11 @@
 # frozen_string_literal: true
+
 require 'json'
 require 'open-uri'
 
 puts 'Cleaning the database.'
 Ingredient.destroy_all
+Cocktail.destroy_all
 
 url = 'https://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
 ingredients_serialized = URI.open(url).read

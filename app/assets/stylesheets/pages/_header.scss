@@ -47,13 +47,28 @@
 }
 
 .btn {
-  border: 1px solid #346751;
-  background: #346751;
+  font-family: 'Work Sans','Helvetica', sans-serif;
+  border: 1px solid #f98404;
+  background: #f98404 ;
   cursor: pointer;
   padding: 8px 16px;
   border-radius: 8px;
-  font-size: 18px;
-  letter-spacing: 2px;
-  color: #ecdbba;
+  font-size: 14px;
+  color: #334854;
+}
 
+#btn-new {
+    font-family: 'Work Sans','Helvetica', sans-serif;
+    padding: 8px 8px;
+    margin: 12px 12px;
+    border: 1px solid #f98404;
+    background: #f98404;
+    text-decoration: none;
+    cursor: pointer;
+    color: #334854;
+}
+
+#btn-new:hover {
+  background: #ecdbba;
+  border: 1px solid #ecdbba;
 }

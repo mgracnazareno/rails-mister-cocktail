@@ -1,15 +1,16 @@
 # frozen_string_literal: true
+
 class CocktailsController < ApplicationController
-  before_action :set_cocktail, only: [:show]
+  before_action :find_cocktail, only: [:show]
   def index
     @cocktails = Cocktail.all
   end
 
+  def show; end
+
   def new
     @cocktail = Cocktail.new
   end
-
-  def show; end
 
   def create
     @cocktail = Cocktail.new(cocktail_params)
@@ -22,7 +23,7 @@ class CocktailsController < ApplicationController
 
   private
 
-  def set_cocktail
+  def find_cocktail
     @cocktail = Cocktail.find(params[:id])
   end
 
